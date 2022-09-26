@@ -1,0 +1,13 @@
+.container-surface{
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(250, 250, 250, 0.8);
+    box-shadow: var(--sombra-padrao);
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+
+.container__titulo{
+    font-size: 1.5rem;
+    font-weight: 500;
+}

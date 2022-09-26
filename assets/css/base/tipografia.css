@@ -6,9 +6,16 @@ html{
     --texto-branco: #ffffff;
     --texto-preto: #000000;
     --texto-azul: #104183;
-    
 }
 
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+.titulo-pagina{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-shadow: var(--sombra-padrao);
 }

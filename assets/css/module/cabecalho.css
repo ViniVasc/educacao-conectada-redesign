@@ -1,0 +1,21 @@
+.cabecalho{
+    background-color: #104183;
+}
+
+    .cabecalho__container{
+        align-items: center;
+        display: flex;
+        height: 5rem;
+        justify-content: space-between;
+    }
+
+    .cabecalho__imagens{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cabecalho__botao-sair{
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        color: #FFFFFF;
+    }

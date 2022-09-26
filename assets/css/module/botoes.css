@@ -22,3 +22,9 @@
         background-color: #1B62C0;
         color: #FFFFFF;
     }
+
+    .botao--verde{
+        border: 1px solid #01D78A;
+        background-color: #01D78A;
+        color: #FFFFFF;
+    }

@@ -1,0 +1,10 @@
+.container-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.container-detalhes strong{
+    font-weight: 500;
+}
