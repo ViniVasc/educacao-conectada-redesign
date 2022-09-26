@@ -12,6 +12,12 @@ body{
     justify-content: center;
 }
 
+    .container-titulo > div{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
     .titulo{
         color: var(--texto-branco);
         font-size: 2.5rem;
@@ -20,7 +26,15 @@ body{
         text-shadow: var(--sombra-padrao);
     }
 
+    .titulo-linha{
+        height: 4px;
+        background-image: linear-gradient(90deg, #FFFF00 0%, #54AD33 50.96%, #FFFF00 100%);
+        box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+        width: 100%;
+    }
+
 .container-login{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,15 +45,26 @@ body{
 
     .logo-see{
         height: auto;
-        width: 100%;
+        width: 75%;
     }
 
-    .brasao{
-        height: auto;  
-        width: 48px; 
+    .container-botoes{
+        justify-content: center;
     }
 
-    .logo-detei{
-        height: auto;
-        width: 80px;
+    .container-logos{
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+
     }
+
+        .brasao{
+            height: auto;  
+            width: 64px; 
+        }
+
+        .logo-detei{
+            height: auto;
+            width: 104px;
+        }

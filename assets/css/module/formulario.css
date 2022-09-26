@@ -1,0 +1,31 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+    .formulario-grupo{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .campo-label{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .campo-texto{
+        border: 1px solid #000000;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        height: 2rem;
+        padding: 0.1rem 0.5rem;
+    }
+
+    .campo-texto:focus, .campo-texto:hover{
+        border-color: #104183;
+        outline: 0;
+    }

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/base/tipografia.css">
     
     <!-- Importando os arquivos de módulos -->
+    <link rel="stylesheet" href="./assets/css/module/botoes.css">
+    <link rel="stylesheet" href="./assets/css/module/formulario.css">
 
     <!-- Importando os arquivos de layout -->
     <link rel="stylesheet" href="assets/css/layout/login.css">
@@ -23,37 +25,38 @@
 
 <body>
     <div class="container-titulo">
-       
-        <h1 class="titulo">PROGRAMA EDUCAÇÃO CONECTADA</h1>
+        <div>
+            <h1 class="titulo">PROGRAMA EDUCAÇÃO CONECTADA</h1>
+            <div class="titulo-linha"></div>
+        </div>
     </div>
 
 
 
     <div class="container-login">
-        
-            <img class="logo-see" src="assets/img/SEE.svg" alt="Logotipo da Secretaria de Educação">
-       
-
-        
-            <form>
+        <img class="logo-see" src="assets/img/SEE.svg" alt="Logotipo da Secretaria de Educação">
+    
+        <form class="formulario">
+            <div class="formulario-grupo">
                 <label class="campo-label" for="campo-usuario">Usuário</label>
-                
-                
-                <input id="campo-usuario" type="text" name="Login">
-                
+                <input id="campo-usuario" class="campo-texto" type="text" name="Login">
+            </div>
+            
+            <div class="formulario-grupo">
                 <label class="campo-label" for="campo-senha">Senha</label>
-                
-                <input id="campo-senha" type="password" name="senha">
-                
+                <input id="campo-senha" class="campo-texto" type="password" name="senha">
+            </div>
+            
+            <div class="container-botoes">
                 <button class="botao botao--primario botao--azul"  type="submit" >Entrar</button> 
-                <button class="botao-secundario" >Ajuda</button> 
-               
+                <button class="botao botao--secundario" >Ajuda</button> 
+            </div>
+        </form>
 
-            </form>
-       
-
-        <img class="brasao" src="assets/img/brasao.svg" alt="Brasão do Governo do Estado do Acre">
-        <img class="logo-detei" src="assets/img/detei.svg" alt="Logotipo do Departamento de Tecnologia">
+        <div class="container-logos">
+            <img class="brasao" src="assets/img/brasao.svg" alt="Brasão do Governo do Estado do Acre">
+            <img class="logo-detei" src="assets/img/detei.svg" alt="Logotipo do Departamento de Tecnologia">
+        </div>
     </div>
 
 </body>

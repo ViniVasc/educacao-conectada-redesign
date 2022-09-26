@@ -1,0 +1,24 @@
+.container-botoes{
+    display: flex;
+    gap: 1rem;
+}
+
+    .botao{
+        border: none;
+        border-radius: 100vmax;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .botao--secundario{
+        border: 1px solid #000000;
+        background-color: transparent;
+    }
+
+    .botao--azul{
+        border: 1px solid #1B62C0;
+        background-color: #1B62C0;
+        color: #FFFFFF;
+    }
