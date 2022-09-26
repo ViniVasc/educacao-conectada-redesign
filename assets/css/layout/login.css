@@ -1,24 +1,25 @@
-html{
-    padding: 0;
-    margin: 0;
-}
 body{
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    padding: 0%;
-    margin: 0%;
     height: 100vh;
 }
-.imagem{
-    width: 70vw;
-    padding: 0%;
-    margin: 0%;
+
+.container-titulo{
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/fundo-login.jpg");
+    background-size: cover;
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
 }
 
-.login{
-width: 30vw;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+    .titulo{
+        color: var(--texto-branco);
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: var(--sombra-padrao);
+    }
+
+.container-login{
+    width: 400px;
 }
