@@ -8,3 +8,19 @@
     display: flex;
     gap: 0.5rem;
 }
+
+@media screen and (max-width: calc(1200px + 4rem)){
+    header, main{
+        padding: 0 2rem;
+    }
+
+    .cabecalho__container, .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    header, main{
+        padding: 0 1rem;
+    }
+}

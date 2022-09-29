@@ -33,3 +33,18 @@
     color: #000000;
     font-size: 1.5rem;
 }
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 480px){
+    .container-cards{
+        flex-wrap: wrap;
+    }
+
+    .container-cards a{
+        flex-basis: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+}

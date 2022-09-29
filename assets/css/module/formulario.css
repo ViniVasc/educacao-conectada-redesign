@@ -71,3 +71,9 @@
         padding: .5rem 1rem;
         width: fit-content;
     }
+
+@media screen and (max-width: 530px){
+    input[type="file"], .campo-texto{
+        width: 100%;
+    }
+}
