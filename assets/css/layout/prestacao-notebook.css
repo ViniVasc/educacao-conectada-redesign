@@ -1,3 +1,14 @@
-.formulario-prestacao-contas{
+.container__status{
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
     margin-top: 1rem;
+    width: fit-content;
+}
+
+.container__status img{
+    max-width: 2rem;
 }

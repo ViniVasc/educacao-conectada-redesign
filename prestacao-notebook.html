@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/base/base.css">
     <link rel="stylesheet" href="assets/css/base/container.css">
     <link rel="stylesheet" href="assets/css/base/tipografia.css">
+    <link rel="stylesheet" href="assets/css/base/cores.css">
     
     <!-- Importando os arquivos de módulos -->
     <link rel="stylesheet" href="./assets/css/module/container-surface.css">
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="./assets/css/module/cabecalho.css">
     
     <!-- Importando os arquivos de layout -->
-    <link rel="stylesheet" href="./assets/css/layout/solicitacao.css">
+    <link rel="stylesheet" href="./assets/css/layout/prestacao-notebook.css">
 
 </head>
 
@@ -47,33 +48,46 @@
             <h1 class="titulo-pagina">Prestação de Contas</h1>
 
             <div class="container-surface">
-                <h2 class="container__titulo">Notebook</h2>
-                <br>
-                <form class="formulario-prestacao-contas">
+                <div class="container__icone-titulo">
+                    <img src="./assets/img/icones/Notebook.svg" alt="" srcset="">
+                    <h2 class="container__titulo">Notebook</h2>
+                </div>
+
+                <div class="container__status analise">
+                    <img src="./assets/img/icones/pendente.svg">
+                    <h2 class="container__titulo">Sua nota fiscal está em análise.</h2>
+                </div>
+
+                <div class="container__status reprovado">
+                    <img src="./assets/img/icones/negado.svg">
+                    <h2 class="container__titulo">Sua nota fiscal foi reprovada, envie uma nota fiscal válida.</h2>
+                </div>
+
+                <div class="container__status aprovado">
+                    <img src="./assets/img/icones/aprovado.svg">
+                    <h2 class="container__titulo">Sua nota fiscal foi aprovada.</h2>
+                </div>
+                
+                <form class="formulario">
                     <div class="formulario-grupo">
-                        <label class="campo-label" for="campo-lotacao">Insira sua nota fiscal</label>
-                        <input type="file">
-                        
-                        </select>
+                        <p class="campo-label">Insira sua nota fiscal</p>
+                        <!-- <label class="campo-arquivo" for="campo-nota"><img src="./assets/img/icones/upload.svg"></img>Nota Fiscal</label> -->
+                        <input id="campo-nota" type="file" accept=".pdf">
                     </div>
-                    <br>
+             
                     <div class="formulario-grupo">
-                        
                         <div>
                             <input type="checkbox" name="" id="campo-termos">
                             <label for="campo-termos">Li e aceito os Termos do Programa</label>
                         </div>
                     </div>
-                    <br>
+                    
                     <div class="container-botoes">
                         <button class="botao botao--primario botao--verde" type="submit">Enviar</button>
                         <button class="botao botao--secundario" >Ajuda</button> 
                     </div>
                 </form>
-
-
             </div>
-
             <a href="./solicitacao.html">Solicitação</a>
         </div>
     </main>

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./assets/css/module/cabecalho.css">
     
     <!-- Importando os arquivos de layout -->
-    <link rel="stylesheet" href="./assets/css/layout/solicitacao.css">
+    <link rel="stylesheet" href="./assets/css/layout/prestacao-internet.css">
 
 </head>
 
@@ -47,35 +47,62 @@
             <h1 class="titulo-pagina">Prestação de Contas</h1>
 
             <div class="container-surface">
-                <h2 class="container__titulo">Serviço de Internet</h2>
-                <br>
-                <form class="formulario-prestacao-contas">
-                   
+                <div class="container__icone-titulo">
+                    <img src="./assets/img/icones/internet.svg" >
+                    <h2 class="container__titulo">Serviço de Internet</h2>
+                </div>
+                
+                <div class="container-notas-enviadas">
+                    <h3 class="container__titulo">Notas Enviadas</h3>
                     
+                    <h4 class="notas-enviadas__ano">2021</h4>
+
+                    <ul class="notas-enviadas__lista">
+                        <li><i></i>Junho</li>
+                        <li><i></i>Julho</li>
+                        <li><i></i>Agosto</li>
+                        <li><i></i>Setembro</li>
+                        <li><i></i>Agosto</li>
+                        <li><i></i>Setembro</li>
+                        <li><i></i>Outubro</li>
+                        <li><i></i>Novembro</li>
+                        <li><i></i>Dezembro</li>
+                    </ul>
+
+                    <h4 class="notas-enviadas__ano">2022</h4>
+
+                    <ul class="notas-enviadas__lista">
+                        <li><i></i>Junho</li>
+                        <li><i></i>Julho</li>
+                        <li><i></i>Agosto</li>
+                        <li><i></i>Setembro</li>
+                        <li><i></i>Agosto</li>
+                        <li><i></i>Setembro</li>
+                        <li><i></i>Outubro</li>
+                        <li><i></i>Novembro</li>
+                        <li><i></i>Dezembro</li>
+                    </ul>
+                </div>
+
+
+                <form class="formulario">
                     <div class="formulario-grupo">
-
-
-                        <label class="campo-label" for="campo-lotacao">Mês da nota fiscal</label>
-                        <input type="date">
-
-                        </select>
+                        <label class="campo-label" for="campo-mes">Mês da nota fiscal</label>
+                        <input class="campo-texto campo-pequeno" id="campo-mes" type="month" min="2021-07">
                     </div>
-                    <br>
+                    
                    <div class="formulario-grupo">
 
                     <label class="campo-label" for="campo-lotacao">Insira sua nota fiscal</label>
                     <input type="file">
                 </div>
-
-                    <br>
                     <div class="formulario-grupo">
-                        
                         <div>
                             <input type="checkbox" name="" id="campo-termos">
                             <label for="campo-termos">Li e aceito os Termos do Programa</label>
                         </div>
                     </div>
-                    <br>
+                    
                     <div class="container-botoes">
                         <button class="botao botao--primario botao--verde" type="submit">Enviar</button>
                         <button class="botao botao--secundario" >Ajuda</button> 

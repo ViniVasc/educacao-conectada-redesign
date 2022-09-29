@@ -1,0 +1,35 @@
+/* Estilização da página de prestação de contas de internet */
+
+.container-notas-enviadas{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+    .notas-enviadas__ano{
+        font-size: 1.25rem;
+    }
+
+    .notas-enviadas__ano:not(:first-of-type){
+        margin-top: .5rem;
+    }
+
+    .notas-enviadas__lista{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .notas-enviadas__lista li{
+        display: flex;
+        gap: .5rem;
+    }
+
+    .notas-enviadas__lista i{
+        aspect-ratio: 1;
+        display: block;
+        background-size: cover;
+        width: 1rem;
+        background-image: url('../../img/icones/aprovado.svg');
+    }

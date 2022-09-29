@@ -17,5 +17,5 @@ body{
     font-size: 2rem;
     font-weight: 500;
     margin-top: 1rem;
-    text-shadow: var(--sombra-padrao);
+    /* text-shadow: var(--sombra-padrao); */
 }
