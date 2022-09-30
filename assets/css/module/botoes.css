@@ -1,3 +1,5 @@
+/* Estilização dos botões e os containers que estão inseridos */
+
 .container-botoes{
     display: flex;
     gap: 1rem;
@@ -12,12 +14,19 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         padding: 0.5rem 1.5rem;
+        transition: .5s;
     }
 
     .botao--secundario{
         border: 1px solid #000000;
         background-color: transparent;
+        transition: 0s;
     }
+
+        .botao--secundario:hover{
+            /* color: #333333; */
+            font-weight: 700;
+        }
 
     .botao--azul{
         border: 1px solid #1B62C0;
@@ -25,8 +34,23 @@
         color: #FFFFFF;
     }
 
+        .botao--azul:hover{
+            background-color: #2a80f1;
+        }
+
     .botao--verde{
         border: 1px solid #01D78A;
         background-color: #01D78A;
         color: #FFFFFF;
     }
+
+        .botao--verde:hover{
+            background-color: #20e09a;
+        }
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 425px){
+    .container-botoes{
+        flex-direction: column;
+    }
+}

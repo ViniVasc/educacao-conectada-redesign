@@ -1,3 +1,5 @@
+/* Estilização do cabeçalho */
+
 .cabecalho{
     background-color: #104183;
 }
@@ -15,7 +17,21 @@
     }
 
     .cabecalho__botao-sair{
-        border: 1px solid #FFFFFF;
         background-color: transparent;
+        border: 1px solid #FFFFFF;
         color: #FFFFFF;
+        transition: 0s;
     }
+
+        .cabecalho__botao-sair:hover{
+            font-weight: 700;
+        }
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 425px){
+    .cabecalho__botao-sair{
+        border: none;
+        padding: 0;
+    }
+}
